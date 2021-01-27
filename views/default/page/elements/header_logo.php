@@ -16,11 +16,11 @@
 
 
 menu{
-    width: 240px;
+    width: 270px;
     background-color: transparent;
     position: absolute;
     top: -20px;
-    right:14%;
+    right:0px;
 }
 
 menu ul{
@@ -81,7 +81,16 @@ menu > ul li:hover .sous{
 .deroulant > a::after{
     content:"▼";
     font-size: 32px;
-    color: #bddf0b;
+    color: #333;
+    background : #bddf0b;
+    height: 56px;
+    display: block;
+    width: 40px;
+    text-align: center;
+    position: absolute;
+    top: 2px;
+    right: 0px;
+    padding-top : 5px;
 }
 
 </style>
@@ -91,12 +100,15 @@ menu > ul li:hover .sous{
     <li class="deroulant"><a href="#">&ensp;</a>
       <ul class="sous">
     <li><a href="https://radio.thechangebook.org/" target="_blank" title="Écouter la webradio de TCB">Écouter RadioLuttes</a></li>
-        <li><a href="https://outils.thechangebook.org/mindmap/" target="_blank" title="Créer une carte heuristique">Carte heuristique</a></li>
+        <li><a href="https://outils.thechangebook.org/mindmap/" target="_blank" title="Créer une carte heuristique">Agencer des idées</a></li>
         <li><a href="https://outils.thechangebook.org/draw/" target="_blank" title="Créer des diagrammes">Créer un diagramme</a></li>
-        <li><a href="https://outils.thechangebook.org/calc/" target="_blank" title="Créer une feuille de calculs">Feuilles de calcul</a></li>
-    <li><a href="https://pad.thechangebook.org/" target="_blank" title="Les pads de TheChangeBook">Ouvrir un pad</a></li>
-    <li><a href="mumble://mumble.thechangebook.org/?version=1.2.3" target="_blank" title="Rejoindre TheChangeBook Mumble">Rejoindre Mumble</a></li>
-        <li><a href="mumble://mumble.thechangebook.org/?version=1.2.3" target="_blank" title="Faire un don pour financer le réseau">Soutenir TCB</a></li>
+            <li><a href="https://outils.thechangebook.org/calc/" target="_blank" title="Créer ou modifier une feuille de calculs">Faire des calculs</a></li>
+    <li><a href="https://meet.thechangebook.org/" target="_blank" title="Créer ou rejoindre une visioconférence (Jitsi)">Organiser une conférence</a></li>
+    <li><a href="https://pad.thechangebook.org/" target="_blank" title="Créer ou modifier un pad (rédaction collaborative)">Ouvrir un pad</a></li>
+    <li><a href="https://tcb.pm/" target="_blank" title="Raccourcir une adresse web">Raccourcir une URL</a></li>
+    <li><a href="https://tube.thechangebook.org/" target="_blank" title="Voir et poster des vidéos sur l'intance Peertube">Regarder des vidéos</a></li>
+    <li><a href="https://mumble.thechangebook.org/" target="_blank" title="Rejoindre les audio conférences sur TheChangeBook Mumble">Rejoindre Mumble</a></li>
+        <li><a href="https://www.helloasso.com/associations/thechangebook-association-medialutte/collectes/pereniser-thechangebook-jusqu-a-atteindre-les-objectifs-et-au-dela/don" target="_blank" title="Faire un don pour financer le réseau">Soutenir TCB</a></li>
       </ul>
     </li>
   </ul>
